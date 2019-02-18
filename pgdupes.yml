@@ -66,8 +66,8 @@
     - name: Set pgdupes.py as executable
       file:
         path: /opt/appdata/pgdupes/pgdupes.py
-        owner: 1000
-        group: 1000
+        owner: '1000'
+        group: '1000'
         mode: a+x
 
     - name: "Create /usr/local/bin symlink"
